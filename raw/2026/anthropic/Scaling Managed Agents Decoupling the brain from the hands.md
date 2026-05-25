@@ -1,12 +1,13 @@
 ---
 title: "Scaling Managed Agents: Decoupling the brain from the hands"
-source: "https://www.anthropic.com/engineering/managed-agents"
+source: https://www.anthropic.com/engineering/managed-agents
 author:
 published:
 created: 2026-05-25
-description: "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+description: Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 tags:
-  - "clippings"
+  - managed-agent
+  - harness
 ---
 *Get started with Claude Managed Agents by following our [docs](https://platform.claude.com/docs/en/managed-agents/overview).*  
   

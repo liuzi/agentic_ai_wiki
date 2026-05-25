@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d48bb16ace446a88",
+        "id": "31344b1b7be30301",
         "type": "tabs",
         "children": [
           {
-            "id": "7444964d60582649",
+            "id": "afcd0270258c5592",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/2026/anthropic/Scaling Managed Agents Decoupling the brain from the hands.md",
+                "file": "raw/2025/anthropic/Tracing the thoughts of a large language model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scaling Managed Agents Decoupling the brain from the hands"
+              "title": "Tracing the thoughts of a large language model"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/2026/anthropic/Scaling Managed Agents Decoupling the brain from the hands.md",
+                "file": "raw/2025/anthropic/Tracing the thoughts of a large language model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Scaling Managed Agents Decoupling the brain from the hands"
+              "title": "Backlinks for Tracing the thoughts of a large language model"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raw/2026/anthropic/Scaling Managed Agents Decoupling the brain from the hands.md",
+                "file": "raw/2025/anthropic/Tracing the thoughts of a large language model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Scaling Managed Agents Decoupling the brain from the hands"
+              "title": "Outgoing links from Tracing the thoughts of a large language model"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/2026/anthropic/Scaling Managed Agents Decoupling the brain from the hands.md",
+                "file": "raw/2025/anthropic/Tracing the thoughts of a large language model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Scaling Managed Agents Decoupling the brain from the hands"
+              "title": "Outline of Tracing the thoughts of a large language model"
             }
           }
         ]
@@ -183,50 +183,52 @@
       "bases:Create new base": false
     }
   },
-  "active": "7444964d60582649",
+  "active": "afcd0270258c5592",
   "lastOpenFiles": [
-    "wiki/source/anthropic-managed-agents-2026.md",
+    "wiki/source/anthropic-tracing-thoughts-2025.md",
     "wiki/index.md",
-    "wiki/technique/managed-agents.md",
-    "raw/assets/2026/anthropic/cf0719d7832b1f577b7393c84a7c53eecc725ca4-760x200.webp",
-    "raw/assets/2026/anthropic/903b624ada206b10753a24c6a1367e74a869165d-1080x1080.webp",
-    "raw/assets/2026/anthropic/73e900af5b9d6ed8c64db0a8e74d4465963556b7-1640x1596.webp",
-    "raw/assets/2026/anthropic/4f67b1c10566552aec514a716ea43544ab330e0b-668x243.webp",
-    "raw/assets/2026/anthropic",
-    "raw/assets/2026",
-    "AGENTS.md",
     "wiki/_inbox.md",
-    "wiki/source/anthropic-managed-agents-2024.md",
-    "raw/2022/arxiv/instructgpt-2022.pdf",
+    "wiki/source/anthropic-managed-agents-2026.md",
+    "wiki/log.md.tmp.68572.1779700094809",
+    "wiki/technique/attribution-graphs.md.tmp.68572.1779700040747",
+    "wiki/technique/attribution-graphs.md.tmp.68572.1779700032148",
+    "wiki/source/anthropic-biology-llm-2025.md",
+    "raw/2025/anthropic/Tracing the thoughts of a large language model.md",
+    "scripts/replace_img_path.sh",
+    "scripts",
+    "raw/assets/2025/anthropic/1612af943004563a78cb7f6591c4cd990c433769-1650x1022.webp",
+    "raw/assets/2025/anthropic/165b18b79295a96bc7142b209caa33f4ec5378d0-1650x548.webp",
+    "raw/assets/2025/anthropic/be304d3250c2aab04e19908b3afc9970d1ed7bb0-1650x1004.webp",
+    "raw/assets/2025/anthropic/fd2e125879ab993949017e03e3465a12fda884bf-1650x857.webp",
+    "raw/assets/2025/anthropic/017ebc3169bd6c37e795d54b726c340eadf8018e-1650x866.webp",
+    "raw/assets/2025/anthropic/a48c1e8195e458ad53f9c81df45af735e267a13d-1650x512.webp",
+    "raw/assets/2025/anthropic/eaabaeb746713f7f82991a0cc6edb091452b2fee-1650x855.png",
+    "raw/assets/2025/anthropic/7032ed7db85b8cd3efe70a89deaf4f15bfe8fc05-1650x900.webp",
+    "raw/assets/2025/anthropic/e0e156ea6c912a385d66ed562187fced8c392a58-1650x750.png",
+    "wiki/log.md.tmp.58386.1779697794058",
+    "wiki/concept/metacognition.md",
+    "wiki/concept/planning-in-llms.md",
+    "wiki/concept/multi-step-reasoning.md",
+    "wiki/technique/mechanistic-interpretability.md",
+    "wiki/technique/circuit-tracing.md",
+    "wiki/technique/sparse-autoencoders.md",
+    "raw/2025/anthropic/On the Biology of a Large Language Model.md",
+    "wiki/technique/attribution-graphs.md",
+    "raw/assets/2025/anthropic/img_43f0a4366d575ff0.png",
+    "raw/assets/2025/anthropic",
+    "raw/assets/2025",
     "raw/2026/anthropic/Scaling Managed Agents Decoupling the brain from the hands.md",
-    "raw/2026/anthropic",
+    "raw/2025/anthropic",
+    "raw/2025",
+    "wiki/technique/managed-agents.md",
+    "AGENTS.md",
+    "wiki/source/anthropic-managed-agents-2024.md",
     "raw/2022/arxiv/README.md",
-    "raw/2022/arxiv",
-    "raw/arxiv/README.md.tmp.12831.1779689515622",
-    "raw/2022/README.md.tmp.12831.1779689510910",
     "raw/arxiv/README.md",
-    "raw/arxiv/README.md.tmp.12831.1779689494583",
     "raw/2022/README.md",
-    "raw/2022/README.md.tmp.12831.1779689485751",
-    "raw/2022",
     "wiki/source/instructgpt-2022.md",
     "raw/anthropic/Scaling Managed Agents Decoupling the brain from the hands.md",
     "wiki/benchmark/TEMPLATE.md",
-    "Clippings/Scaling Managed Agents Decoupling the brain from the hands.md",
-    "wiki/concept/context-anxiety.md",
-    "wiki/technique/session-based-context.md",
-    "raw/assets/cf0719d7832b1f577b7393c84a7c53eecc725ca4-760x200.webp",
-    "raw/assets/903b624ada206b10753a24c6a1367e74a869165d-1080x1080.webp",
-    "raw/assets/73e900af5b9d6ed8c64db0a8e74d4465963556b7-1640x1596.webp",
-    "raw/assets/4f67b1c10566552aec514a716ea43544ab330e0b-668x243.webp",
-    "wiki/question/TEMPLATE.md",
-    "wiki/question/rl-stage-necessity.md",
-    "Welcome.md",
-    "wiki/concept/alignment.md",
-    "wiki/technique/reinforcement-learning-from-human-feedback.md",
-    "wiki/thread/TEMPLATE.md",
-    "wiki/concept/TEMPLATE.md",
-    "wiki/source/TEMPLATE.md",
-    "wiki/technique/TEMPLATE.md"
+    "Clippings/Scaling Managed Agents Decoupling the brain from the hands.md"
   ]
 }

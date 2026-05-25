@@ -64,7 +64,7 @@ tags: [rl, post-training, alignment]
 ### 2. `source/` — one page per paper, post, or talk
 
 The page is a *reading of* the source, not a copy of it. Required sections:
-- Citation block (authors, venue, date, arXiv ID / URL, our local path to the raw file).
+- Citation block (authors, venue, date, arXiv ID / URL, linked local path to raw file).
 - **Claim** — the central claim in one sentence.
 - **Method** — how they support the claim.
 - **Results** — key numbers. Always with the benchmark and baseline.
@@ -120,19 +120,30 @@ Things I want to know but don't yet. Each question links to the techniques, sour
 
 ### Ingest (a new source)
 
-When I hand you a paper or blog post:
+When I hand you a paper or blog post, follow this four-phase process:
 
+#### Phase 1: Analysis & Planning
 1. **Read it.** Don't skim. If it's long, read the abstract + intro + method + results + discussion at minimum, and tell me if you're skipping the appendix.
-2. **Locate it.** Which existing `technique/` pages does this touch? Which `benchmark/` pages? Search the wiki, don't guess.
-3. **Discuss with me first.** Before writing anything: what's the central claim, what's actually new, where does it fit in the lineage, what should I be skeptical of? Two or three exchanges, then write.
-4. **Create `source/<slug>.md`.** Use the template above.
-5. **Update affected `technique/` pages.** This is where most of the work is:
-   - If the source advances a technique we already have a page for: add to Evidence, update lineage if the source changes our view of it, bump `last_updated`.
-   - If the source introduces a new technique: create a `technique/` page. Don't just append to the source page — the idea needs its own home so it can be linked from elsewhere.
-   - If the source contradicts an existing claim: don't silently overwrite. Add the contradiction explicitly with both sides quoted, and flag it for me. I decide which side wins.
-6. **Update affected `benchmark/` pages.** If the source posts a new number, update the leaderboard.
-7. **Update `index.md`** and append to `log.md`.
-8. **Update `_inbox.md`** with any techniques/papers mentioned that we don't yet cover.
+2. **Locate existing connections.** Which `technique/` pages does this touch? Which `benchmark/` pages? Search the wiki, don't guess.
+3. **Identify novel elements.** What new techniques, concepts, or claims does this introduce?
+4. **Discuss with me first.** Before writing anything: what's the central claim, what's actually new, where does it fit in the lineage, what should I be skeptical of? Two or three exchanges, then write.
+
+#### Phase 2: Content Creation
+5. **Create `source/<slug>.md`.** Use the template above.
+6. **Create new `technique/` pages.** For novel methods — don't just append to the source page, the idea needs its own home for cross-linking.
+7. **Create new `concept/` pages.** For overloaded terminology requiring disambiguation.
+8. **Update existing pages.** Add to Evidence tables, update lineage relationships, bump `last_updated` dates.
+
+#### Phase 3: Evidence Integration
+9. **Document performance claims.** Add benchmark results with proper baselines and scale information.
+10. **Track lineage.** Update supersedes/superseded_by/competes_with relationships across affected technique pages.
+11. **Handle contradictions.** Don't silently overwrite conflicts — surface both sides with quotes for resolution.
+
+#### Phase 4: Cross-Reference & Maintenance
+12. **Update `index.md`** with new entries and current counts.
+13. **Update `log.md`** with ingestion activity summary.
+14. **Update `_inbox.md`** with techniques/papers mentioned that we don't yet cover.
+15. **Update `benchmark/` pages** if the source posts new leaderboard numbers.
 
 A single source typically touches 5–15 wiki pages. That's expected.
 
@@ -165,6 +176,7 @@ Lint output is a report, not a set of automatic edits. I approve before you touc
 
 - **Slugs are lowercase-kebab, paper-agnostic.** `wiki/technique/grpo.md`, not `wiki/technique/deepseekmath-grpo.md`. The page is about the idea.
 - **Link with relative paths** (`../technique/grpo.md`) so the wiki works offline and outside of Obsidian.
+- **Local file links** use format: `**Local copy**: [raw/YYYY/category/filename.md](../../raw/YYYY/category/filename.md)` with proper URL encoding for spaces (%20).
 - **One claim, one citation.** Every empirical claim points to a `source/`. "Generally accepted" without a citation is a bug.
 - **Quote sparingly.** Paraphrase the source's argument; quote only when the exact wording matters (a precise definition, a notable hedge, a memorable framing). Never quote more than ~25 words from a single source.
 - **Numbers go in tables, not prose.** Benchmark results in markdown tables with a `source:` column.
