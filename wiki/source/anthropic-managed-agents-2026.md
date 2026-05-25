@@ -10,7 +10,7 @@ confidence: high
 
 # Scaling Managed Agents: Decoupling the brain from the hands
 
-**Citation:** Martin, Lance et al. "Scaling Managed Agents: Decoupling the brain from the hands." Anthropic Engineering Blog, 2026. [URL](https://www.anthropic.com/engineering/managed-agents) | [Local copy](../../raw/anthropic/Scaling%20Managed%20Agents%20Decoupling%20the%20brain%20from%20the%20hands.md)
+**Citation:** Martin, Lance et al. "Scaling Managed Agents: Decoupling the brain from the hands." Anthropic Engineering Blog, 2026. [URL](https://www.anthropic.com/engineering/managed-agents) | [Local copy](../../raw/2026/anthropic/Scaling%20Managed%20Agents%20Decoupling%20the%20brain%20from%20the%20hands.md)
 
 ## Claim
 
