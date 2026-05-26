@@ -1,6 +1,6 @@
 # AI Research Wiki
 
-Personal knowledge base for tracking state-of-the-art AI techniques, papers, and research developments.
+Personal knowledge base for tracking state-of-the-art AI techniques, papers, and research developments. Based on [Andrej Karpathy's LLM wiki template](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
 
 ## Quick Access
 
