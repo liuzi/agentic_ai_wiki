@@ -31,9 +31,10 @@ Circuit tracing combines feature identification with causal analysis:
 - **Feature attribution**: Quantify how much each component contributes to outputs
 
 **Modern extensions**:
-- Attribution graphs for large-scale circuit discovery
+- Attribution graphs using cross-layer transcoders for production-scale models
+- Replacement model methodology with linear feature interactions
+- Automated circuit discovery and validation frameworks
 - Sparse autoencoder features as circuit nodes
-- Automated circuit discovery algorithms
 
 ## Lineage
 
@@ -44,8 +45,9 @@ Circuit tracing combines feature identification with causal analysis:
 - Causal intervention methods
 
 **Enables**:
-- Attribution graphs (Anthropic 2025)
-- Automated circuit discovery
+- Attribution graphs via cross-layer transcoders (Anthropic 2025)
+- Linear attribution analysis for mechanistic interpretability
+- Automated circuit discovery at production scale
 - Model editing and steering
 - Safety-relevant circuit analysis
 
@@ -62,6 +64,8 @@ Circuit tracing combines feature identification with causal analysis:
 | IOI task | GPT-2 Small | Name resolution | Path patching | Wang et al. (2022) |
 | Addition | Claude 3.5 Haiku | Multi-pathway arithmetic | Attribution graphs | anthropic-biology-llm-2025 |
 | Safety refusal | Claude 3.5 Haiku | Harmful request detection | Feature intervention | anthropic-biology-llm-2025 |
+| Number addition | 18-layer LM | Parallel computation pathways | Cross-layer transcoders | anthropic-circuit-tracing-2025 |
+| Feature attribution | 18-layer LM | Linear feature interactions | CLT replacement model | anthropic-circuit-tracing-2025 |
 
 ## Caveats & failure modes
 
@@ -83,5 +87,6 @@ Circuit tracing combines feature identification with causal analysis:
 ## Sources
 
 - A Mathematical Framework for Transformer Circuits (Elhage et al. 2021)
-- Interpretability in the Wild (Wang et al. 2022) - Path patching methodology  
-- [anthropic-biology-llm-2025](../source/anthropic-biology-llm-2025.md) - Attribution graphs for circuit tracing
+- Interpretability in the Wild (Wang et al. 2022) - Path patching methodology
+- [anthropic-circuit-tracing-2025](../source/anthropic-circuit-tracing-2025.md) - Cross-layer transcoder methodology for attribution graphs
+- [anthropic-biology-llm-2025](../source/anthropic-biology-llm-2025.md) - Attribution graphs applied to Claude 3.5 Haiku

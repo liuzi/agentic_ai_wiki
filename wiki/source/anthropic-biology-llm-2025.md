@@ -11,11 +11,7 @@ confidence: high
 
 # On the Biology of a Large Language Model
 
-**Authors**: A. Templeton, T. Conerly, J. Marcus, J. Lindsey, T. Bricken, B. Chen, A. Pearce, C. Citro, E. Ameisen, A. Jones, H. Cunningham, N.L. Turner, C. McDougall, M. MacDiarmid, C.D. Freeman, T.R. Sumers, E. Rees, J. Batson, A. Jermyn, S. Carter, C. Olah, T. Henighan  
-**Venue**: Transformer Circuits Thread  
-**Date**: 2025-01-14  
-**URL**: https://transformer-circuits.pub/2025/attribution-graphs/biology.html  
-**Local copy**: [raw/2025/anthropic/On the Biology of a Large Language Model.md](../../raw/2025/anthropic/On%20the%20Biology%20of%20a%20Large%20Language%20Model.md)
+**Citation:** Templeton, A. et al. "On the Biology of a Large Language Model." Transformer Circuits Thread, 2025. [URL](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) | [Local copy](../../raw/2025/anthropic/On%20the%20Biology%20of%20a%20Large%20Language%20Model.md)
 
 ## Claim
 

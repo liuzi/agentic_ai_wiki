@@ -2,7 +2,10 @@
 type: source
 source_kind: blog
 date: 2026-05-25
-authors: [martin-l, cemaj-g, cohen-m]
+authors:
+  - martin-l
+  - cemaj-g
+  - cohen-m
 venue: anthropic-engineering-blog
 status: read
 confidence: high

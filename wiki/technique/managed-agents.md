@@ -5,7 +5,7 @@ introduced: 2026-05
 last_updated: 2026-05-25
 supersedes: [monolithic-agent-containers]
 superseded_by: []
-competes_with: [langchain-agents, crewai, autogen]
+competes_with: [langchain-agents, crewai, autogen, long-running-agent-harnesses]
 tags: [agents, infrastructure, reliability, scalability]
 ---
 
@@ -54,10 +54,19 @@ Builds on decades of OS design principles (process virtualization, hardware abst
 - **Context reconstruction costs**: Session replay may be expensive for very long sessions
 - **Interface overhead**: Abstraction layers add computational cost
 
+## Related Approaches
+
+**Complementary techniques**:
+- [Long-Running Agent Harnesses](long-running-agent-harnesses.md) - Workflow patterns for multi-session agent continuity using dual-agent architecture
+- [Session-Based Context](session-based-context.md) - External context storage mechanisms
+
+**Comparison**: Managed Agents focuses on infrastructure-level decomposition (brain/hands/session) while long-running harnesses address workflow patterns (initializer/coding agents). The approaches are complementary - managed agents provide the infrastructure substrate while harnesses provide the operational patterns.
+
 ## Open Questions
 
 - How does session storage scale to extremely long-horizon tasks (weeks/months)?
 - What are the optimal strategies for context selection from session logs?
+- How do managed agent components integrate with specialized workflow patterns like dual-agent harnesses?
 - How do failure modes change when scaling to hundreds of concurrent brains/hands?
 - Can the interface abstractions accommodate future agent architectures we haven't imagined?
 

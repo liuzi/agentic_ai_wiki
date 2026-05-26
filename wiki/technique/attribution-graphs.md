@@ -17,27 +17,30 @@ Attribution graphs trace computational pathways between interpretable features i
 
 ## Mechanism
 
-Attribution graphs combine sparse autoencoder feature discovery with causal tracing:
+Attribution graphs combine interpretable feature discovery with linear attribution analysis:
 
-1. **Feature Discovery**: Train sparse autoencoders on model activations to identify interpretable features that activate for specific concepts or patterns
+1. **Replacement Model**: Train cross-layer transcoders (CLTs) to create interpretable proxy model where features read from one layer and contribute to all subsequent MLP outputs, enabling linear feature interactions
 
-2. **Attribution Mapping**: For a given prompt, trace how features influence each other across layers by measuring attribution scores - quantifying how much each upstream feature contributes to each downstream feature's activation
+2. **Feature Discovery**: CLT training discovers interpretable features that activate for specific concepts while maintaining ~50% output fidelity with original model
 
-3. **Graph Construction**: Build directed graph where nodes are features and edges represent causal influence, with edge weights proportional to attribution strength
+3. **Attribution Mapping**: For a given prompt, compute linear attribution scores between features using well-defined gradients in the replacement model
 
-4. **Pruning & Visualization**: Filter for significant edges and group related features into "supernodes" to create interpretable circuit diagrams
+4. **Graph Construction**: Build directed graph where nodes are CLT features, embeddings, and output logits; edges represent linear causal effects with weights proportional to attribution strength
 
-5. **Validation**: Test hypothesized mechanisms through intervention experiments - suppress/enhance features and observe effects on downstream computation and model outputs
+5. **Pruning & Visualization**: Apply automated pruning to identify edges/nodes most important for target outputs, creating sparse interpretable circuits
 
-**Key innovation**: Unlike previous circuit analysis limited to toy models or specific components, attribution graphs scale to frontier production models by leveraging the interpretability of SAE-discovered features.
+6. **Validation**: Test discovered mechanisms through perturbation experiments - modify feature activations and verify predicted vs. actual effects on model outputs
+
+**Key innovation**: Unlike previous circuit analysis limited to toy models, attribution graphs scale to production models through cross-layer transcoders that create linear feature interactions amenable to principled attribution analysis.
 
 ## Lineage
 
 **Descends from**:
+- Cross-layer transcoders (Lindsey et al. 2024, anthropic-circuit-tracing-2025)
 - Sparse autoencoders (Bricken et al. 2023, Templeton et al. 2024)
 - Circuit analysis (Olah et al., Elhage et al.)
 - Activation patching and causal tracing methods
-- Mechanistic interpretability research program
+- Mathematical framework for transformer circuits (Elhage et al. 2021)
 
 **Competes with**:
 - Direct activation patching (limited scalability)
@@ -103,6 +106,6 @@ Attribution graphs combine sparse autoencoder feature discovery with causal trac
 
 ## Sources
 
-- [anthropic-biology-llm-2025](../source/anthropic-biology-llm-2025.md) - Primary introduction and case studies
+- [anthropic-circuit-tracing-2025](../source/anthropic-circuit-tracing-2025.md) - Technical methodology and validation framework
+- [anthropic-biology-llm-2025](../source/anthropic-biology-llm-2025.md) - Application to Claude 3.5 Haiku analysis
 - [anthropic-tracing-thoughts-2025](../source/anthropic-tracing-thoughts-2025.md) - Accessible presentation with intervention demonstrations
-- [Circuit Tracing Methods](https://transformer-circuits.pub/2025/attribution-graphs/methods.html) - Detailed methodology

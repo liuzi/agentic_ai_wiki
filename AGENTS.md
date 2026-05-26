@@ -64,7 +64,7 @@ tags: [rl, post-training, alignment]
 ### 2. `source/` — one page per paper, post, or talk
 
 The page is a *reading of* the source, not a copy of it. Required sections:
-- Citation block (authors, venue, date, arXiv ID / URL, linked local path to raw file).
+- **Citation** block in format: `**Citation:** Author(s). "Title." Venue, Year. [URL](link) | [Local copy](../../raw/year/category/filename)` with proper URL encoding.
 - **Claim** — the central claim in one sentence.
 - **Method** — how they support the claim.
 - **Results** — key numbers. Always with the benchmark and baseline.
@@ -123,27 +123,28 @@ Things I want to know but don't yet. Each question links to the techniques, sour
 When I hand you a paper or blog post, follow this four-phase process:
 
 #### Phase 1: Analysis & Planning
-1. **Read it.** Don't skim. If it's long, read the abstract + intro + method + results + discussion at minimum, and tell me if you're skipping the appendix.
-2. **Locate existing connections.** Which `technique/` pages does this touch? Which `benchmark/` pages? Search the wiki, don't guess.
-3. **Identify novel elements.** What new techniques, concepts, or claims does this introduce?
-4. **Discuss with me first.** Before writing anything: what's the central claim, what's actually new, where does it fit in the lineage, what should I be skeptical of? Two or three exchanges, then write.
+1. **Create task list.** Use TodoWrite to plan and track ingestion progress through all phases.
+2. **Path correction for markdown files.** If the source is a markdown file (.md), run `scripts/replace_img_path.sh {year} {category} "{file_path}"` to correct image attachment paths before reading. Skip this step for PDFs and other non-markdown files.
+3. **Read thoroughly.** Abstract + intro + method + results + discussion minimum. Note if skipping appendix.
+4. **Locate existing connections.** Which `technique/` pages does this touch? Which `benchmark/` pages? Search the wiki, don't guess.
+5. **Identify novel elements.** What new techniques, concepts, or claims does this introduce?
+6. **Discuss with me first.** Before writing anything: what's the central claim, what's actually new, where does it fit in the lineage, what should I be skeptical of? Two or three exchanges, then write.
 
 #### Phase 2: Content Creation
-5. **Create `source/<slug>.md`.** Use the template above.
-6. **Create new `technique/` pages.** For novel methods — don't just append to the source page, the idea needs its own home for cross-linking.
-7. **Create new `concept/` pages.** For overloaded terminology requiring disambiguation.
-8. **Update existing pages.** Add to Evidence tables, update lineage relationships, bump `last_updated` dates.
+7. **Create `source/<slug>.md`.** Use the template above.
+8. **Create new `technique/` pages.** For novel methods — don't just append to the source page, the idea needs its own home for cross-linking.
+9. **Create new `concept/` pages.** For overloaded terminology requiring disambiguation.
+10. **Update existing pages.** Add to Evidence tables, update lineage relationships, bump `last_updated` dates.
 
 #### Phase 3: Evidence Integration
-9. **Document performance claims.** Add benchmark results with proper baselines and scale information.
-10. **Track lineage.** Update supersedes/superseded_by/competes_with relationships across affected technique pages.
-11. **Handle contradictions.** Don't silently overwrite conflicts — surface both sides with quotes for resolution.
+11. **Document claims & lineage.** Add benchmark results with proper baselines and scale information. Update supersedes/superseded_by/competes_with relationships across technique pages.
+12. **Handle contradictions.** Don't silently overwrite conflicts — surface both sides with quotes for resolution.
 
 #### Phase 4: Cross-Reference & Maintenance
-12. **Update `index.md`** with new entries and current counts.
-13. **Update `log.md`** with ingestion activity summary.
-14. **Update `_inbox.md`** with techniques/papers mentioned that we don't yet cover.
-15. **Update `benchmark/` pages** if the source posts new leaderboard numbers.
+13. **Update `index.md`** with new entries and current counts.
+14. **Update `log.md`** with ingestion activity summary.
+15. **Update `_inbox.md`** with techniques/papers mentioned that we don't yet cover.
+16. **Update `benchmark/` pages** if the source posts new leaderboard numbers.
 
 A single source typically touches 5–15 wiki pages. That's expected.
 

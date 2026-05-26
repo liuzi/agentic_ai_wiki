@@ -11,11 +11,7 @@ confidence: high
 
 # Tracing the thoughts of a large language model
 
-**Authors**: Anthropic Team  
-**Venue**: Anthropic Blog  
-**Date**: 2025-01-14  
-**URL**: https://www.anthropic.com/research/tracing-thoughts-language-model  
-**Local copy**: [raw/2025/anthropic/Tracing the thoughts of a large language model.md](../../raw/2025/anthropic/Tracing%20the%20thoughts%20of%20a%20large%20language%20model.md)
+**Citation:** Anthropic Team. "Tracing the thoughts of a large language model." Anthropic Blog, 2025. [URL](https://www.anthropic.com/research/tracing-thoughts-language-model) | [Local copy](../../raw/2025/anthropic/Tracing%20the%20thoughts%20of%20a%20large%20language%20model.md)
 
 ## Claim
 

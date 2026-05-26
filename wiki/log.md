@@ -34,6 +34,33 @@ Operations: `ingest`, `query`, `lint`, `refactor`, `setup`
 - Added evidence tables with multilingual analysis, intervention experiments, and hallucination findings
 - Updated cross-references across interpretability pages
 
+## [2026-05-25] ingest | Anthropic circuit tracing methods paper
+
+- Created anthropic-circuit-tracing-2025.md source page for technical methodology
+- Created cross-layer-transcoders.md technique page for novel CLT architecture
+- Updated attribution-graphs.md with technical methodology details and CLT foundation
+- Updated circuit-tracing.md with modern extensions via attribution graphs and CLTs
+- Added technical evidence including 50% output fidelity and validation frameworks
+- Established cross-references between methods paper, biology applications, and blog presentation
+
+## [2026-05-26] ingest | Anthropic long-running agent harnesses blog
+
+- Created anthropic-long-running-agents-2025.md source page for engineering blog
+- Created long-running-agent-harnesses.md technique page for dual-agent workflow patterns
+- Updated managed-agents.md with complementary technique cross-references
+- Updated context-anxiety.md with specific manifestations (one-shotting, premature completion)
+- Added evidence for systematic failure mode solutions and testing integration patterns
+- Established relationships between infrastructure (managed agents) and workflow (harnesses) approaches
+
+## [2026-05-26] ingest | Anthropic GAN-inspired harness design blog
+
+- Created anthropic-harness-design-2026.md source page for advanced multi-agent architecture research
+- Created gan-inspired-agent-architectures.md technique page for generator-evaluator-planner patterns
+- Updated long-running-agent-harnesses.md with evolution path and advanced pattern cross-references
+- Updated context-anxiety.md with Claude Opus 4.5 vs 4.6 model evolution findings
+- Added evidence for cost-quality trade-offs (20x cost increase, major quality improvements)
+- Established lineage from dual-agent harnesses to sophisticated multi-agent orchestration patterns
+
 - Created RLHF technique page as example
 - Added InstructGPT source page
 - Created alignment concept page
