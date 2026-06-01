@@ -16,6 +16,15 @@ Operations: `ingest`, `query`, `lint`, `refactor`, `setup`
 - Added example pages to demonstrate structure
 - Ready for first ingestion
 
+## [2026-06-01] ingest | OpenAI papers on frontier research capabilities
+
+- Ingested two OpenAI blog posts from raw/2026/openai/
+- Created source pages: discrete geometry breakthrough and Rosalind Biodefense program
+- Added frontier-research-capabilities thread tracking AI contributions to scientific discovery
+- Created technique pages for test-time compute scaling and defensive acceleration
+- Updated index with 2 new sources, 2 new techniques, 1 new thread
+- First coverage of OpenAI models and AI governance approaches in the wiki
+
 ## [2026-05-25] ingest | Example pages created
 
 - Added example RLHF technique page with InstructGPT source

@@ -1,12 +1,12 @@
 # AI Research Wiki Index
 
-*Last updated: 2026-05-26*
+*Last updated: 2026-06-01*
 
 A structured knowledge base for tracking state-of-the-art AI techniques, papers, and research developments.
 
 ---
 
-## Techniques (10)
+## Techniques (12)
 *Core AI methods and approaches*
 
 - [RLHF](technique/reinforcement-learning-from-human-feedback.md) — Trains AI systems using human preferences via RL | active | 2026-05-25
@@ -19,10 +19,12 @@ A structured knowledge base for tracking state-of-the-art AI techniques, papers,
 - [Sparse Autoencoders](technique/sparse-autoencoders.md) — Dictionary learning for interpretable feature discovery | active | 2026-05-25
 - [Circuit Tracing](technique/circuit-tracing.md) — Maps computational pathways in neural networks | active | 2026-05-25
 - [Mechanistic Interpretability](technique/mechanistic-interpretability.md) — Reverse-engineering neural network algorithms | active | 2026-05-25
+- [Test-Time Compute](technique/test-time-compute.md) — Scales inference compute for better reasoning performance | active | 2026-06-01
+- [Defensive Acceleration](technique/defensive-acceleration.md) — Structured deployment ensuring defenders get preferential access | active | 2026-06-01
 
 ---
 
-## Sources (7)
+## Sources (9)
 *Papers, blog posts, talks, and other materials*
 
 - [InstructGPT](source/instructgpt-2022.md) — Training language models to follow instructions | paper | 2022-03-04
@@ -32,6 +34,8 @@ A structured knowledge base for tracking state-of-the-art AI techniques, papers,
 - [Circuit Tracing Methods](source/anthropic-circuit-tracing-2025.md) — Cross-layer transcoders for attribution graph construction | paper | 2025-01-14
 - [Long-Running Agent Harnesses](source/anthropic-long-running-agents-2025.md) — Dual-agent workflows for multi-session continuity | blog | 2025-11-26
 - [GAN-Inspired Harness Design](source/anthropic-harness-design-2026.md) — Multi-agent architectures with generator-evaluator patterns | blog | 2026-05-26
+- [OpenAI Discrete Geometry](source/openai-discrete-geometry-2026.md) — AI model disproves 80-year-old mathematical conjecture | blog | 2026-05-29
+- [OpenAI Rosalind Biodefense](source/openai-rosalind-biodefense-2026.md) — Defensive acceleration strategy for biological capabilities | blog | 2026-05-20
 
 ---
 
@@ -53,10 +57,10 @@ A structured knowledge base for tracking state-of-the-art AI techniques, papers,
 
 ---
 
-## Threads (0)
+## Threads (1)
 *Evolving research narratives*
 
-*(No entries yet)*
+- [Frontier Research Capabilities](thread/frontier-research-capabilities.md) — AI systems contributing to cutting-edge scientific research | active | 2026-06-01
 
 ---
 

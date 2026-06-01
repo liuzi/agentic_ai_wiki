@@ -145,6 +145,7 @@ When I hand you a paper or blog post, follow this four-phase process:
 14. **Update `log.md`** with ingestion activity summary.
 15. **Update `_inbox.md`** with techniques/papers mentioned that we don't yet cover.
 16. **Update `benchmark/` pages** if the source posts new leaderboard numbers.
+17. **Update existing `thread/` pages.** Check if the new source contributes to existing research narratives. Add dated entries to relevant threads, or create new threads if this source represents the start of a significant research arc.
 
 A single source typically touches 5–15 wiki pages. That's expected.
 
