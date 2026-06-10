@@ -11,19 +11,20 @@ A thread tracking AI systems' ability to contribute to cutting-edge research acr
 
 ---
 
-## 2025-01-14 | First detailed mechanistic analysis of frontier model
+## 2026-06-10 | Autonomous scientific capabilities at scale
 
-Anthropic publishes "Biology of a Large Language Model," providing the first detailed mechanistic interpretability analysis of a frontier production model (Claude 3.5 Haiku) rather than toy models.
+Anthropic launches Claude Fable 5 and Mythos 5, demonstrating the first large-scale deployment of autonomous scientific capabilities including novel hypothesis generation, week-long independent research projects, and 10x acceleration in drug design workflows.
 
 **Key developments:**
-- Attribution graphs reveal sophisticated internal mechanisms: multi-step reasoning, forward/backward planning, primitive metacognitive circuits
-- Evidence of abstract computational mechanisms that generalize across domains
-- First scalable circuit tracing methodology that works on production-scale models
-- Discovery of internal planning and reasoning capabilities not visible in model outputs
+- First model to consistently generate novel, testable biological hypotheses (80% preference vs previous models)
+- Autonomous genomics research: week-long project outperformed published Science journal model despite being 100x smaller
+- Independent protein design: 9/14 targets yielded strong drug candidates with no human assistance
+- One AI-generated hypothesis independently corroborated by separate laboratory
+- Mythos-class models outperform specialized protein language models using general biological reasoning
 
-**Significance:** Demonstrates that frontier models have rich internal structure amenable to scientific analysis. Shows AI research methodology advancing to keep pace with model capabilities—moving from toy model analysis to production model mechanistic understanding.
+**Significance:** Marks transition from AI as research tool to AI as independent researcher. Shows frontier models developing domain expertise that rivals or exceeds specialized systems. Raises new questions about validation, oversight, and credit assignment in AI-generated scientific discoveries.
 
-**Source:** [Anthropic Biology LLM](../source/anthropic-biology-llm-2025.md)
+**Source:** [Anthropic Fable 5 and Mythos 5](../source/anthropic-fable-5-mythos-5-2026.md)
 
 ---
 
@@ -59,20 +60,19 @@ OpenAI launches structured access to GPT-Rosalind for biodefense applications, i
 
 ---
 
-## 2026-06-10 | Autonomous scientific capabilities at scale
+## 2025-01-14 | First detailed mechanistic analysis of frontier model
 
-Anthropic launches Claude Fable 5 and Mythos 5, demonstrating the first large-scale deployment of autonomous scientific capabilities including novel hypothesis generation, week-long independent research projects, and 10x acceleration in drug design workflows.
+Anthropic publishes "Biology of a Large Language Model," providing the first detailed mechanistic interpretability analysis of a frontier production model (Claude 3.5 Haiku) rather than toy models.
 
 **Key developments:**
-- First model to consistently generate novel, testable biological hypotheses (80% preference vs previous models)
-- Autonomous genomics research: week-long project outperformed published Science journal model despite being 100x smaller
-- Independent protein design: 9/14 targets yielded strong drug candidates with no human assistance
-- One AI-generated hypothesis independently corroborated by separate laboratory
-- Mythos-class models outperform specialized protein language models using general biological reasoning
+- Attribution graphs reveal sophisticated internal mechanisms: multi-step reasoning, forward/backward planning, primitive metacognitive circuits
+- Evidence of abstract computational mechanisms that generalize across domains
+- First scalable circuit tracing methodology that works on production-scale models
+- Discovery of internal planning and reasoning capabilities not visible in model outputs
 
-**Significance:** Marks transition from AI as research tool to AI as independent researcher. Shows frontier models developing domain expertise that rivals or exceeds specialized systems. Raises new questions about validation, oversight, and credit assignment in AI-generated scientific discoveries.
+**Significance:** Demonstrates that frontier models have rich internal structure amenable to scientific analysis. Shows AI research methodology advancing to keep pace with model capabilities—moving from toy model analysis to production model mechanistic understanding.
 
-**Source:** [Anthropic Fable 5 and Mythos 5](../source/anthropic-fable-5-mythos-5-2026.md)
+**Source:** [Anthropic Biology LLM](../source/anthropic-biology-llm-2025.md)
 
 ---
 
