@@ -2,7 +2,7 @@
 type: thread
 status: active
 started: 2026-06-01
-last_updated: 2026-06-01
+last_updated: 2026-06-10
 ---
 
 # Frontier Research Capabilities
@@ -56,6 +56,23 @@ OpenAI launches structured access to GPT-Rosalind for biodefense applications, i
 **Significance:** Shows transition from general AI capabilities to domain-specific deployment with governance frameworks. Suggests recognition that frontier models require structured access rather than broad deployment in sensitive domains.
 
 **Source:** [OpenAI Rosalind Biodefense](../source/openai-rosalind-biodefense-2026.md)
+
+---
+
+## 2026-06-10 | Autonomous scientific capabilities at scale
+
+Anthropic launches Claude Fable 5 and Mythos 5, demonstrating the first large-scale deployment of autonomous scientific capabilities including novel hypothesis generation, week-long independent research projects, and 10x acceleration in drug design workflows.
+
+**Key developments:**
+- First model to consistently generate novel, testable biological hypotheses (80% preference vs previous models)
+- Autonomous genomics research: week-long project outperformed published Science journal model despite being 100x smaller
+- Independent protein design: 9/14 targets yielded strong drug candidates with no human assistance
+- One AI-generated hypothesis independently corroborated by separate laboratory
+- Mythos-class models outperform specialized protein language models using general biological reasoning
+
+**Significance:** Marks transition from AI as research tool to AI as independent researcher. Shows frontier models developing domain expertise that rivals or exceeds specialized systems. Raises new questions about validation, oversight, and credit assignment in AI-generated scientific discoveries.
+
+**Source:** [Anthropic Fable 5 and Mythos 5](../source/anthropic-fable-5-mythos-5-2026.md)
 
 ---
 

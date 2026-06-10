@@ -16,6 +16,18 @@ Operations: `ingest`, `query`, `lint`, `refactor`, `setup`
 - Added example pages to demonstrate structure
 - Ready for first ingestion
 
+## [2026-06-10] ingest | Anthropic Claude Fable 5 and Mythos 5 capabilities
+
+- Ingested Anthropic blog post on Claude Fable 5 and Mythos 5 launch from raw/2026/anthropic/
+- Created source page: Mythos-class models with classifier-based safeguarding
+- Created technique pages for classifier-based safeguarding and autonomous scientific capabilities
+- Created 3 new benchmark pages: FrontierCode, Hebbia Finance, AAV viral shell design
+- Updated frontier-research-capabilities thread with autonomous scientific breakthroughs
+- Updated defensive acceleration with Anthropic's dual-model strategy
+- Updated alignment concept with automated assessment evidence
+- Updated index with 1 new source, 2 new techniques, 3 new benchmarks
+- First coverage of Mythos-class capabilities and comprehensive benchmark establishment
+
 ## [2026-06-01] ingest | OpenAI papers on frontier research capabilities
 
 - Ingested two OpenAI blog posts from raw/2026/openai/
