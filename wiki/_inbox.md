@@ -24,3 +24,8 @@ Format: `- [YYYY-MM-DD] <technique/paper/benchmark> — <one-line description> (
 - [2026-05-26] Playwright MCP — Browser testing integration for agent validation workflows (mentioned in anthropic-harness-design-2026)
 - [2026-05-26] frontend-design-skills — UI/UX competencies required for effective development agents (mentioned in anthropic-harness-design-2026)
 - [2026-05-26] model-evolution-adaptation — Adjusting harness complexity based on LLM capability improvements (mentioned in anthropic-harness-design-2026)
+- [2026-06-10] agentic-hacking — Multi-step cybersecurity capabilities beyond exploit discovery (mentioned in anthropic-fable-5-mythos-5-2026)
+- [2026-06-10] jailbreak-resistance — Systematic approaches to preventing universal jailbreaks (mentioned in anthropic-fable-5-mythos-5-2026)
+- [2026-06-10] red-teaming-evaluation — External validation of AI safety systems (mentioned in anthropic-fable-5-mythos-5-2026)
+- [2026-06-10] data-retention-policy — 30-day monitoring for frontier model safety (mentioned in anthropic-fable-5-mythos-5-2026)
+- [2026-06-10] graduated-access-models — Different safeguard sets for different user classes (mentioned in anthropic-fable-5-mythos-5-2026)

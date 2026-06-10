@@ -146,6 +146,7 @@ When I hand you a paper or blog post, follow this four-phase process:
 15. **Update `_inbox.md`** with techniques/papers mentioned that we don't yet cover.
 16. **Update `benchmark/` pages** if the source posts new leaderboard numbers.
 17. **Update existing `thread/` pages.** Check if the new source contributes to existing research narratives. Add dated entries to relevant threads, or create new threads if this source represents the start of a significant research arc.
+18. **Update `README.md`** with current stats (technique/source/concept/thread/question counts) and last updated date.
 
 A single source typically touches 5–15 wiki pages. That's expected.
 
@@ -184,6 +185,7 @@ Lint output is a report, not a set of automatic edits. I approve before you touc
 - **Numbers go in tables, not prose.** Benchmark results in markdown tables with a `source:` column.
 - **Equations in LaTeX** (`$...$` and `$$...$$`). Define every symbol.
 - **Dates in ISO** (`2026-05-25`). Never "last month."
+- **Temporal ordering.** Content with timestamps (thread entries, log entries) should be ordered **latest first** (newest to oldest). This applies to `thread/` pages and `log.md`.
 - **Hedging is information.** "Outperforms PPO on GSM8K at 7B" is useful. "Outperforms PPO" is not. Always include scale and benchmark.
 
 ---

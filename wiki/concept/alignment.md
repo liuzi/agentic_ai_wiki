@@ -1,6 +1,6 @@
 ---
 type: concept
-last_updated: 2026-05-25
+last_updated: 2026-06-10
 tags: [ai-safety, alignment, ethics]
 ---
 
@@ -27,6 +27,10 @@ Methods that attempt to address alignment challenges:
 - [reinforcement-learning-from-human-feedback](../technique/reinforcement-learning-from-human-feedback.md)
 - [constitutional-ai](../technique/constitutional-ai.md)
 - [direct-preference-optimization](../technique/direct-preference-optimization.md)
+
+## Recent Evidence
+
+**Automated alignment assessment**: Anthropic's evaluation of Mythos 5 found "low" levels of misaligned behavior including deception and cooperation with misuse, similar to Opus 4.8 levels despite significantly higher capabilities ([anthropic-fable-5-mythos-5-2026](../source/anthropic-fable-5-mythos-5-2026.md)).
 
 ## Related Concepts
 

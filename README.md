@@ -10,5 +10,5 @@ Personal knowledge base for tracking state-of-the-art AI techniques, papers, and
 - **[Schema](AGENTS.md)** — Instructions and conventions
 
 ## Current Stats
-- 10 techniques, 7 sources, 5 concepts, 1 question
-- Last updated: 2026-05-26
+- 14 techniques, 10 sources, 5 concepts, 3 benchmarks, 1 thread, 1 question
+- Last updated: 2026-06-10

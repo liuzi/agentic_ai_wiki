@@ -1,12 +1,12 @@
 # AI Research Wiki Index
 
-*Last updated: 2026-06-01*
+*Last updated: 2026-06-10*
 
 A structured knowledge base for tracking state-of-the-art AI techniques, papers, and research developments.
 
 ---
 
-## Techniques (12)
+## Techniques (14)
 *Core AI methods and approaches*
 
 - [RLHF](technique/reinforcement-learning-from-human-feedback.md) — Trains AI systems using human preferences via RL | active | 2026-05-25
@@ -20,11 +20,13 @@ A structured knowledge base for tracking state-of-the-art AI techniques, papers,
 - [Circuit Tracing](technique/circuit-tracing.md) — Maps computational pathways in neural networks | active | 2026-05-25
 - [Mechanistic Interpretability](technique/mechanistic-interpretability.md) — Reverse-engineering neural network algorithms | active | 2026-05-25
 - [Test-Time Compute](technique/test-time-compute.md) — Scales inference compute for better reasoning performance | active | 2026-06-01
-- [Defensive Acceleration](technique/defensive-acceleration.md) — Structured deployment ensuring defenders get preferential access | active | 2026-06-01
+- [Defensive Acceleration](technique/defensive-acceleration.md) — Structured deployment ensuring defenders get preferential access | active | 2026-06-10
+- [Classifier-Based Safeguarding](technique/classifier-based-safeguarding.md) — AI systems detecting misuse with automatic model fallback | active | 2026-06-10
+- [Autonomous Scientific Capabilities](technique/autonomous-scientific-capabilities.md) — Independent research workflows and novel hypothesis generation | active | 2026-06-10
 
 ---
 
-## Sources (9)
+## Sources (10)
 *Papers, blog posts, talks, and other materials*
 
 - [InstructGPT](source/instructgpt-2022.md) — Training language models to follow instructions | paper | 2022-03-04
@@ -36,20 +38,23 @@ A structured knowledge base for tracking state-of-the-art AI techniques, papers,
 - [GAN-Inspired Harness Design](source/anthropic-harness-design-2026.md) — Multi-agent architectures with generator-evaluator patterns | blog | 2026-05-26
 - [OpenAI Discrete Geometry](source/openai-discrete-geometry-2026.md) — AI model disproves 80-year-old mathematical conjecture | blog | 2026-05-29
 - [OpenAI Rosalind Biodefense](source/openai-rosalind-biodefense-2026.md) — Defensive acceleration strategy for biological capabilities | blog | 2026-05-20
+- [Anthropic Fable 5 and Mythos 5](source/anthropic-fable-5-mythos-5-2026.md) — Mythos-class models with classifier-based safeguarding | blog | 2026-06-10
 
 ---
 
-## Benchmarks (0)
+## Benchmarks (3)
 *Evaluation suites and datasets*
 
-*(No entries yet)*
+- [FrontierCode](benchmark/frontiercode.md) — Production-quality coding tasks for AI models | 2026-06-10
+- [Hebbia Finance](benchmark/hebbia-finance.md) — Senior-level financial reasoning benchmark | 2026-06-10
+- [AAV Viral Shell Design](benchmark/aav-viral-shell-design.md) — Biological reasoning on viral design prediction | 2026-06-10
 
 ---
 
 ## Concepts (5)
 *Definitional pages for important terms*
 
-- [Alignment](concept/alignment.md) — Problem of ensuring AI systems pursue intended goals | 2026-05-25
+- [Alignment](concept/alignment.md) — Problem of ensuring AI systems pursue intended goals | 2026-06-10
 - [Context Anxiety](concept/context-anxiety.md) — Premature task termination near context limits | 2026-05-25
 - [Multi-Step Reasoning](concept/multi-step-reasoning.md) — Internal reasoning steps in language models | 2026-05-25
 - [Planning in LLMs](concept/planning-in-llms.md) — Forward and backward planning capabilities | 2026-05-25
@@ -60,7 +65,7 @@ A structured knowledge base for tracking state-of-the-art AI techniques, papers,
 ## Threads (1)
 *Evolving research narratives*
 
-- [Frontier Research Capabilities](thread/frontier-research-capabilities.md) — AI systems contributing to cutting-edge scientific research | active | 2026-06-01
+- [Frontier Research Capabilities](thread/frontier-research-capabilities.md) — AI systems contributing to cutting-edge scientific research | active | 2026-06-10
 
 ---
 

@@ -2,7 +2,7 @@
 type: technique
 status: active
 introduced: 2026-05
-last_updated: 2026-06-01
+last_updated: 2026-06-10
 supersedes: []
 superseded_by: []
 competes_with: [open-source-deployment, broad-access-models]
@@ -43,6 +43,8 @@ Implementation requires balancing access (enabling beneficial applications) with
 | Biosecurity screening | AI-native threat detection | Fourth Eon Biosecurity partnership | [openai-rosalind-biodefense-2026](../source/openai-rosalind-biodefense-2026.md) |
 | Medical countermeasures | Accelerated development | LLNL biopreparedness platform | [openai-rosalind-biodefense-2026](../source/openai-rosalind-biodefense-2026.md) |
 | Vaccine development | 100 Days Mission support | CEPI collaboration | [openai-rosalind-biodefense-2026](../source/openai-rosalind-biodefense-2026.md) |
+| Cybersecurity defense | Project Glasswing expansion | Mythos 5 for vetted cyber defenders | [anthropic-fable-5-mythos-5-2026](../source/anthropic-fable-5-mythos-5-2026.md) |
+| Biology research | Trusted access program | Mythos 5 with biology safeguards lifted | [anthropic-fable-5-mythos-5-2026](../source/anthropic-fable-5-mythos-5-2026.md) |
 
 ## Caveats & Failure modes
 
@@ -63,3 +65,4 @@ Implementation requires balancing access (enabling beneficial applications) with
 ## Sources
 
 - [OpenAI Rosalind Biodefense](../source/openai-rosalind-biodefense-2026.md) — First large-scale implementation of defensive acceleration in biology domain
+- [Anthropic Fable 5 and Mythos 5](../source/anthropic-fable-5-mythos-5-2026.md) — Expansion of defensive acceleration to cybersecurity and biology via dual-model strategy
