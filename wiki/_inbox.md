@@ -29,3 +29,6 @@ Format: `- [YYYY-MM-DD] <technique/paper/benchmark> — <one-line description> (
 - [2026-06-10] red-teaming-evaluation — External validation of AI safety systems (mentioned in anthropic-fable-5-mythos-5-2026)
 - [2026-06-10] data-retention-policy — 30-day monitoring for frontier model safety (mentioned in anthropic-fable-5-mythos-5-2026)
 - [2026-06-10] graduated-access-models — Different safeguard sets for different user classes (mentioned in anthropic-fable-5-mythos-5-2026)
+- [2026-06-12] agent-programming-evaluation — Benchmark methodologies for coding within agentic workflows (mentioned in code-as-agent-harness-2026)
+- [2026-06-12] tool-integration-testing — Evaluation of API usage and external system integration in agent code (mentioned in code-as-agent-harness-2026)
+- [2026-06-12] iterative-code-refinement — Agent capabilities for debugging and improving code based on execution feedback (mentioned in code-as-agent-harness-2026)

@@ -1,6 +1,6 @@
 # AI Research Wiki Index
 
-*Last updated: 2026-06-10*
+*Last updated: 2026-06-12*
 
 A structured knowledge base for tracking state-of-the-art AI techniques, papers, and research developments.
 
@@ -26,25 +26,27 @@ A structured knowledge base for tracking state-of-the-art AI techniques, papers,
 
 ---
 
-## Sources (10)
+## Sources (11)
 *Papers, blog posts, talks, and other materials*
 
-- [InstructGPT](source/instructgpt-2022.md) — Training language models to follow instructions | paper | 2022-03-04
+- [Code as Agent Harness](source/code-as-agent-harness-2026.md) — Evaluating LLMs for agent programming tasks | paper | 2026
+- [Anthropic Fable 5 and Mythos 5](source/anthropic-fable-5-mythos-5-2026.md) — Mythos-class models with classifier-based safeguarding | blog | 2026-06-10
+- [OpenAI Discrete Geometry](source/openai-discrete-geometry-2026.md) — AI model disproves 80-year-old mathematical conjecture | blog | 2026-05-29
+- [GAN-Inspired Harness Design](source/anthropic-harness-design-2026.md) — Multi-agent architectures with generator-evaluator patterns | blog | 2026-05-26
 - [Managed Agents Blog](source/anthropic-managed-agents-2026.md) — Decoupling the brain from the hands | blog | 2026-05-25
+- [OpenAI Rosalind Biodefense](source/openai-rosalind-biodefense-2026.md) — Defensive acceleration strategy for biological capabilities | blog | 2026-05-20
+- [Long-Running Agent Harnesses](source/anthropic-long-running-agents-2025.md) — Dual-agent workflows for multi-session continuity | blog | 2025-11-26
 - [Biology of a Large Language Model](source/anthropic-biology-llm-2025.md) — Mechanistic interpretability of Claude 3.5 Haiku | paper | 2025-01-14
 - [Tracing the Thoughts](source/anthropic-tracing-thoughts-2025.md) — Attribution graphs reveal Claude's internal mechanisms | blog | 2025-01-14
 - [Circuit Tracing Methods](source/anthropic-circuit-tracing-2025.md) — Cross-layer transcoders for attribution graph construction | paper | 2025-01-14
-- [Long-Running Agent Harnesses](source/anthropic-long-running-agents-2025.md) — Dual-agent workflows for multi-session continuity | blog | 2025-11-26
-- [GAN-Inspired Harness Design](source/anthropic-harness-design-2026.md) — Multi-agent architectures with generator-evaluator patterns | blog | 2026-05-26
-- [OpenAI Discrete Geometry](source/openai-discrete-geometry-2026.md) — AI model disproves 80-year-old mathematical conjecture | blog | 2026-05-29
-- [OpenAI Rosalind Biodefense](source/openai-rosalind-biodefense-2026.md) — Defensive acceleration strategy for biological capabilities | blog | 2026-05-20
-- [Anthropic Fable 5 and Mythos 5](source/anthropic-fable-5-mythos-5-2026.md) — Mythos-class models with classifier-based safeguarding | blog | 2026-06-10
+- [InstructGPT](source/instructgpt-2022.md) — Training language models to follow instructions | paper | 2022-03-04
 
 ---
 
-## Benchmarks (3)
+## Benchmarks (4)
 *Evaluation suites and datasets*
 
+- [Code as Agent Harness](benchmark/code-as-agent-harness.md) — Agent programming evaluation with tool integration | 2026-06-12
 - [FrontierCode](benchmark/frontiercode.md) — Production-quality coding tasks for AI models | 2026-06-10
 - [Hebbia Finance](benchmark/hebbia-finance.md) — Senior-level financial reasoning benchmark | 2026-06-10
 - [AAV Viral Shell Design](benchmark/aav-viral-shell-design.md) — Biological reasoning on viral design prediction | 2026-06-10

@@ -79,6 +79,7 @@ Subsequent sessions follow standardized protocol:
 | Feature implementation | Claude 4.5 | 200+ granular features systematically completed | Complex UI/UX requirements | anthropic-long-running-agents-2025 |
 | State management | Claude Agent SDK | Clean handoffs, reduced context waste | Multi-day development cycles | anthropic-long-running-agents-2025 |
 | Testing integration | Puppeteer MCP | End-to-end validation catching code-invisible bugs | Browser automation workflows | anthropic-long-running-agents-2025 |
+| Code generation evaluation | Various LLMs | Multi-step agent programming tasks | Agentic workflows with tool integration | [code-as-agent-harness-2026](../source/code-as-agent-harness-2026.md) |
 
 ## Caveats & failure modes
 

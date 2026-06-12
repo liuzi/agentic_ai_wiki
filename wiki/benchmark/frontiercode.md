@@ -42,6 +42,11 @@ Given the focus on production-quality code rather than simple correctness, meani
 
 The benchmark appears designed to capture improvements that matter for real software engineering rather than just algorithmic problem-solving ability.
 
+## Relationship to other benchmarks
+
+- **vs. Code as Agent Harness**: Complementary focus areas - FrontierCode emphasizes production code quality and software engineering best practices, while [Code as Agent Harness](code-as-agent-harness.md) focuses on code generation within agentic workflows and tool integration
+- **vs. HumanEval/MBPP**: Production-ready coding standards vs. basic algorithmic correctness
+
 ## Sources
 
 - [Anthropic Fable 5 and Mythos 5](../source/anthropic-fable-5-mythos-5-2026.md) — Fable 5 performance on FrontierCode evaluation

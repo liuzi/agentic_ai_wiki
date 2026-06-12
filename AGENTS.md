@@ -185,7 +185,7 @@ Lint output is a report, not a set of automatic edits. I approve before you touc
 - **Numbers go in tables, not prose.** Benchmark results in markdown tables with a `source:` column.
 - **Equations in LaTeX** (`$...$` and `$$...$$`). Define every symbol.
 - **Dates in ISO** (`2026-05-25`). Never "last month."
-- **Temporal ordering.** Content with timestamps (thread entries, log entries) should be ordered **latest first** (newest to oldest). This applies to `thread/` pages and `log.md`.
+- **Temporal ordering.** Content with timestamps (thread entries, log entries, index sections) should be ordered **latest first** (newest to oldest). This applies to `thread/` pages, `log.md`, and all sections in `index.md` (Sources, Benchmarks, etc.).
 - **Hedging is information.** "Outperforms PPO on GSM8K at 7B" is useful. "Outperforms PPO" is not. Always include scale and benchmark.
 
 ---
