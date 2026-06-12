@@ -7,6 +7,17 @@ Operations: `ingest`, `query`, `lint`, `refactor`, `setup`
 
 ---
 
+## [2026-06-12] ingest | Code as Agent Harness evaluation paper
+
+- Ingested PDF paper on evaluating LLMs for agent programming from raw/2026/arxiv/
+- Created source page: Code as Agent Harness paper with novel evaluation methodology
+- Created benchmark page: Code as Agent Harness for agent programming evaluation
+- Updated FrontierCode benchmark with comparison to agent-focused evaluation
+- Updated long-running agent harnesses technique with evidence from new evaluation work
+- Updated inbox with 3 new technique references: agent-programming-evaluation, tool-integration-testing, iterative-code-refinement
+- Updated index with 1 new source and 1 new benchmark (totals: 11 sources, 4 benchmarks)
+- First coverage of agent programming evaluation as distinct from standalone coding assessment
+
 ## [2026-06-10] ingest | Anthropic Claude Fable 5 and Mythos 5 capabilities
 
 - Ingested Anthropic blog post on Claude Fable 5 and Mythos 5 launch from raw/2026/anthropic/
